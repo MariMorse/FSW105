@@ -20,7 +20,7 @@ if("cat" === "dog") {
 //Bronze Medal
 var person = {
     name: "Bobby",
-    age: 12
+    age: 13
 }   
 
 //Question 1
