@@ -1,5 +1,5 @@
 //Preliminaries
-//Question 1
+//Question One
 if(5 > 3) {
     console.log("is greater than")
 }
