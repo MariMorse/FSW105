@@ -33,7 +33,7 @@ for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
     }
 }
 
-console.log("*** Question 2 ***")
+console.log("\n*** Question 2 ***")
 for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
     if (peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18) {
         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max.")
