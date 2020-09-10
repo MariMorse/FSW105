@@ -26,5 +26,11 @@ var answer = oddOrEven(35);
     console.log(answer);
 
 
-    
+console.log("\n***Question 4***")
 
+var str = "Hello my name is Marianne!";
+var x = str.toString();
+
+function letterC(param) {
+    
+}  
