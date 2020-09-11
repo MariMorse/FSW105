@@ -47,7 +47,7 @@ var answer2 = letterC(str);
 
 
 console.log("\n***Question Extra Credit***")
-/// Note to Instructor: Do not count the extra credit work. This was NOT done by me. I have had some help with the assignments from my boyfriend. For fun, he wanted to do the Extra Credit. This is HIS work. (I don't know anything about JavaScript... Have background in Visual Basic for Applications (Excel) but that is all. -- Derek)
+/// Note to Instructor: Do not count the extra credit work. This was NOT done by me. My boyfriend has been helping me learn all of this. For fun, he wanted to do the Extra Credit. This is HIS work. (I don't know anything about JavaScript... just Visual Basic.
 
 function fibonacciSequence(param) {
     var a = 1
