@@ -46,10 +46,39 @@ console.log("\n*** Question 3 ***")
 for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
     //I chose to use a (Ternary) for this question, because had I of used the if statements, the code would have been 15 lines or more. With this conditional operator brought the code down to 6. This is a lot easier to read and while it took me a little longer to learn and reading about it. It will be a less amount of time at another time when I have it down. 
     
-    var status1 = (peopleWhoWantToSeeMadMaxFuryRoad[i].age < 18) ? "NOT ":"";
-    var status2 = (peopleWhoWantToSeeMadMaxFuryRoad[i].age < 18) ? "don't ":"";
-    var pronoun = (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "male") ? "HIM":"HER";
-    console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is " + status1 + "old enough to see Mad Max Fury Road, " + status2 + "let " + pronoun + " in.")
+    //var status1 = (peopleWhoWantToSeeMadMaxFuryRoad[i].age < 18) ? "NOT ":"";
+    //var status2 = (peopleWhoWantToSeeMadMaxFuryRoad[i].age < 18) ? "don't ":"";
+    //var pronoun = (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "male") ? "HIM":"HER";
+    //var pronoun = (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "male") ? "HIM":"HER";
+    //console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is " + status1 + "old enough to see Mad Max Fury Road, " + status2 + "let " + pronoun + " in.")
+
+    if (peopleWhoWantToSeeMadMaxFuryRoad[i].age < 18) { 
+        var status1 = "NOT "
+        var status2 = "don't "
+    } else { 
+        var status1 = "" 
+        var status2 = "" 
+    }
+
+    if (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "male") {
+        pronoun1 = "HIM"; 
+        pronoun2 = "HE'S"
+    } else {
+        pronoun1 = "HER" 
+        pronoun2 = "SHE'S"
+    }
+
+    response = ""
+    if (peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18) {
+        var response = peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough. " + pronoun2 + " good to see Mad Max Fury Road."
+    } else { 
+        var response = peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough to see Mad Max Fury Road, don't let " + pronoun1 + " in."
+    }
+    console.log(response)
+
+
+    
+
 }
 
 console.log("\n***Question 4***")
