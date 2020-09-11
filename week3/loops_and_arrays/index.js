@@ -49,7 +49,6 @@ for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
     //var status1 = (peopleWhoWantToSeeMadMaxFuryRoad[i].age < 18) ? "NOT ":"";
     //var status2 = (peopleWhoWantToSeeMadMaxFuryRoad[i].age < 18) ? "don't ":"";
     //var pronoun = (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "male") ? "HIM":"HER";
-    //var pronoun = (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "male") ? "HIM":"HER";
     //console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is " + status1 + "old enough to see Mad Max Fury Road, " + status2 + "let " + pronoun + " in.")
 
     if (peopleWhoWantToSeeMadMaxFuryRoad[i].age < 18) { 
@@ -61,7 +60,7 @@ for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
     }
 
     if (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "male") {
-        pronoun1 = "HIM"; 
+        pronoun1 = "HIM" 
         pronoun2 = "HE'S"
     } else {
         pronoun1 = "HER" 
