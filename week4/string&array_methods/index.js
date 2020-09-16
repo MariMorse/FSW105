@@ -2,7 +2,7 @@ console.log("***String Methods***")
 console.log("\n***Question 1***")
 function capitalizeAndLowercase(str) {
     var upperLower = str.toUpperCase() + str.toLowerCase();
-    return "Upper and Lower Case String is:" + upperLower;
+    return upperLower;
 }
 console.log(capitalizeAndLowercase("Hello"))
 
@@ -62,7 +62,6 @@ var food = fruit.concat(vegetables)
 //console.log(food)
 
 food.splice(4, 2)
-//let removedItems = food.splice(4, 2)
 //console.log(food)
 
 food.reverse();
