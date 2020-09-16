@@ -8,8 +8,9 @@ console.log(capitalizeAndLowercase("Hello"))
 
 console.log("\n***Question 2***")
 function findMiddleIndex(str) {
-    total_length = len(str)
+    total_length = str.length
     second_half_first_index = Math.floor(total_length / 2)
+    return second_half_first_index
 }
 console.log(findMiddleIndex("Hello"));
 console.log(findMiddleIndex("Hello World"));
@@ -24,7 +25,6 @@ console.log(returnFirstHalf("Hello World"));
 
 console.log("\n***Question 4***")
 function upperAndLower(str) {
-    var strLength = (str.length);
     
 }
 console.log(upperAndLower("Hello"));
@@ -36,27 +36,22 @@ var fruit = ["banana", "apple", "orange", "watermelon"];
 var vegetables = ["carrot", "tomato", "pepper", "lettuce"];
 
 vegetables.pop();
-//console.log(vegetables);
+console.log(vegetables);
 
 fruit.shift();
-//console.log(fruit);
+console.log(fruit);
 
 var orangeIndex = fruit.indexOf("orange")
-//console.log(orangeIndex);
+console.log(orangeIndex);
 
-fruit.push("1");
-//console.log(fruit);
+fruit.push(orangeIndex);
+console.log(fruit);
 
-vegetables.length;
-//console.log(vegetables)
+var vegLength = vegetables.length;
+console.log(vegetables)
 
-vegetables.push("3");
+//vegetables.push(vegLength);
 //console.log(vegetables);
 
-var food = fruit.concat(vegetables)
-console.log(food)
-
-//var newArr = food.()
-
-
-
+//var food = fruit.concat(vegetables)
+//console.log(food)
