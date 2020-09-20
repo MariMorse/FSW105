@@ -109,7 +109,7 @@ function stringConcat(arr) {
 console.log(stringConcat([1,2,3]));
 
 console.log("\n***C-3***");
-//NOTE: You don't necessarily have to use reduc for this, try to think of multiple ways to sole it.
+//NOTE: You don't necessarily have to use reduce for this, try to think of multiple ways to sole it.
 function totalVotes(arr) {
 
 }
@@ -128,3 +128,53 @@ var voters = [
     {name: 'Zack', age: 19, voted: true},
 ];
 console.log(totalVotes(voters));
+
+console.log("\n***C-Extra Credit 1***");
+function shoppingSpree(arr) {
+
+}
+
+var wishList = [
+    {title: "Tesla Model S", price: 90000 },
+    {title: "4 carat diamond ring", price: 45000 },
+    {title: "Fancy hacky Sack", price: 5 },
+    {title: "Gold fidget spinner", price: 2000 },
+    {title: "A second Tesla Model S", price: 90000 }
+];
+console.log(shoppingSpree(wishList));
+
+console.log("\n***C-Extra Credit 2***");
+//NOTE-Take a look at Array.concat() to help with this one:
+function flatten(arr) {
+
+}
+var arrays = [
+    ["1", "2", "3"],
+    [true],
+    [4, 5, 6]
+];
+
+//Section D- use the built in .sort() method on arrays to solve all of these problems:
+console.log("\n***D-1***");
+function leastToGreatest(arr) {
+
+}
+console.log(leastToGreatest([1, 3, 5, 2, 90, 20]));
+
+console.log("\n***D-2***");
+function greatestToLeast(arr) {
+
+}
+console.log(greatestToLeast([1, 3, 5, 2, 90, 20]));
+
+console.log("\n***D-3***");
+function lengthSort(arr) {
+
+}
+console.log(lengthSort(["dog", "wolf", "by", "family", "eaten"]));
+
+console.log("\n***D-Extra Credit***");
+function alphabetical(arr) {
+
+}
+console.log(alphabetical(["dog", "wolf", "by", "family", "eaten"]));
