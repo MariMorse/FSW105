@@ -1,19 +1,27 @@
 //***Section A- .filter()
 console.log("***A-1***");
-const fiveAndGreaterOnly = [3, 6, 8, 2]
+var fiveAndGreaterOnly = [3, 6, 8, 2];
 
-const result = fiveAndGreaterOnly.filter(function(arr){
-    if(arr > 5)
-        return true
+var result = fiveAndGreaterOnly.filter(function(arr1){
+    if(arr1 > 5)
+        return true;
 })
 console.log(result);
 
 console.log("\n***A-2***");
-const evensOnly = [3, 6, 8, 2]
+var evensOnly = [3, 6, 8, 2];
 
-const result2 = evensOnly.filter(function(arr) {
+var result = evensOnly.filter(function(arr) {
     if(arr % 2 === 0) 
-        return true
+        return true;
 })
-console.log(result2);
+console.log(result);
 
+//Section B .map
+console.log("\n***B-1***");
+const doubleNumbers = [2, 5, 100]
+
+const results = doubleNumbers.map(function(arr){
+    return arr * 2;
+})
+console.log(results);
