@@ -8,12 +8,12 @@
 //console.log(result2);
 
 //Section B
-//const doubleNumbers = [2, 5, 100]
+const doubleNumbers = [2, 5, 100]
 
-//const result4 = doubleNumbers.map(function(arr){
-//    return arr * 2;
-//})
-//console.log(result4);
+const results = doubleNumbers.map(function(arr){
+    return arr * 2;
+})
+console.log(results);
 //var ofAge = [
 //    {name: "Angelina Jolie", age: 80 },
 //    {name: "Eric Jones", age: 2 },
