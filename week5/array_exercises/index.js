@@ -1,5 +1,6 @@
 //***Section A- .filter()
 console.log("***A-1***");
+{
 function fiveAndGreaterOnly(arr) {
     const result = arr.filter(function (num) {
         if (num >= 5) {
@@ -9,25 +10,28 @@ function fiveAndGreaterOnly(arr) {
     return result;
 };
 console.log(fiveAndGreaterOnly([3, 6, 8, 2]));
-
-//console.log("\n***A-2***");
-//function evensOnly(arr) {
-//    const result = arr.filter(function (num) {
-//        if (num % 2 === 0) {
-//            return true;
-//        };
-//    });
-//    return result;
-//};
-//console.log(evensOnly([3, 6, 8, 2]));
+}
+console.log("\n***A-2***");
+{
+function evensOnly(arr2) {
+    const resultOne = arr2.filter(function (numEvens) {
+        if (numEvens % 2 === 0) {
+            return true;
+        };
+    });
+    return resultOne;
+};
+console.log(evensOnly([3, 6, 8, 2]));
+}
 //Section B .map
-//console.log("\n***B-1***");
-//function doubleNumbers(arr){
-//    let double = arr.map(i=>i*2);
-//    return double;
-//}
-//console.log(doubleNumbers([2, 5, 100]));
-
+console.log("\n***B-1***");
+{
+function doubleNumbers(arrTwo){
+    let double = arrTwo.map(i=>i*2);
+    return double;
+}
+console.log(doubleNumbers([2, 5, 100]));
+}
 //console.log("\n***B-2***");
 //function stringItUp(arr){
 //    let string = arr.map(String);
