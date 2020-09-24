@@ -51,12 +51,12 @@
 //console.log(total)
 
 //console.log("\n***C-2***");
-const stringConcat = [1, 2, 3]
-
-const result = stringConcat.reduce(function(final, stringNums){
-    
-}
-console.log(result)
+//const stringConcat = [1, 2, 3]
+//
+//const result = stringConcat.reduce(function(final, stringNums){
+//    
+//}
+//console.log(result)
 
 //console.log("\n***C-3***");
 //const totalVotes = [
@@ -103,6 +103,6 @@ console.log("\n***D-3***");
 const lengthSort = ["dog", "wolf", "by", "family", "eaten"]
 
 lengthSort.sort(function(a, b){
-    return a.length - b.length;
+    return a.length - b.length
 });
-console.log(lengthSort)
+console.log(lengthSort);
