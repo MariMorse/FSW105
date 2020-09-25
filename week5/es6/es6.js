@@ -50,3 +50,23 @@ console.log("\n***Question 4-2***");
 let produceProject = (a, b) => a * b;
 
 console.log(produceProject(5, 15));
+
+console.log("\n***Question 5***");
+
+
+
+console.log("\n***Question 6***");
+
+
+
+console.log("\n***Question 7***");
+const animals = [
+    {type: "dog", name: "theodore"},
+    {type: "cat", name: "whiskers"},
+    {type: "pig", name: "piglette"},
+    {type: "dog", name: "sparky"}
+]
+
+const filterForDogs = animals.filter(animal => animal.type === "dog")
+    
+console.log(filterForDogs)
