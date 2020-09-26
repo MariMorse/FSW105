@@ -52,10 +52,15 @@ let produceProject = (a, b) => a * b;
 console.log(produceProject(5, 15));
 
 console.log("\n***Question 5***")
-function info(parameter1 = "Jane", parameter2 = "Doe", age = 100) {
-    return "Hi" + parameter1.value + parameter2.value + ", how does it feel to be" + age.value + "?"
-}
-console.log(printString("Snow", "White", 21))
+
+printString = (firstName = 'Jane') => Hi ${firstName} 
+
+
+console.log(printString('Kat'));
+
+//function info(parameter1 = "Jane", parameter2 = "Doe", age = 100) {
+//    return "Hi" + parameter1.value + parameter2.value + ", ////how does it feel to be" + age.value + "?"
+//}
 
 console.log("\n***Question 6***")
 let printString = (firstName = "Jane", lastName = "Doe", age = 100) => `Hi ${firstName} ${lastName}, how does it feel to be ${age}?`
