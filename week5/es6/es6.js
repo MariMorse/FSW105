@@ -53,7 +53,7 @@ console.log(produceProject(5, 15));
 
 console.log("\n***Question 5***")
 
-printString = (firstName = 'Jane') => Hi ${firstName} 
+let printString = (firstName = "Jane", lastName = "Doe", age = 100) => Hi ${firstName} ${lastName},
 
 
 console.log(printString('Kat'));
