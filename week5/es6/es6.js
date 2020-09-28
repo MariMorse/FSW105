@@ -52,7 +52,8 @@ let produceProject = (a, b) => a * b;
 console.log(produceProject(5, 15));
 
 console.log("\n***Question 5***")
-
+let stringPrint = (nameFirst = "Jane", nameLast = "Doe", ageOne = 100) => `Hi ${nameFirst} ${nameLast}, how does it feel to be ${ageOne}?`
+console.log(stringPrint("Kat", "Stark", 40))
  
 
 console.log("\n***Question 6***")
@@ -73,4 +74,7 @@ const filterForDogs = animals.filter(animal => animal.type === "dog")
 console.log(filterForDogs);
 
 console.log("\n***Auestion 8***")
+let hawaii = (location = "", name = "") => `Hi ${name}!,\nWelcome to ${location}. 
+I hope you enjoy your stay. Please ask the president of ${location} if you need anything.`
 
+console.log(hawaii("Hawaii", "Janice"));
