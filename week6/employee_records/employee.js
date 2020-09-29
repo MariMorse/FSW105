@@ -12,5 +12,4 @@ var employee2 = new Employee("Bruce Banner", "Research Scientist", "$97,000/year
 var employee3 = new Employee("Anna Nicole", "Escort", "$7,000/nightly", "Contract")
 
 
-
-console.log(printEmployeeForm(employee1));
+let printEmployeeForm = 
