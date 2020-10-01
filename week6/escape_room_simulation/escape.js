@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
 const player = readlineSync.question("May I have your name? ");
 
-const welcomeM = `Welcome ${player} to 13th Floor Escape Room Simulation Game!`;
+const welcomeM = `${player}, Welcome to 13th Floor Escape Room Simulation Game!`;
 console.log(welcomeM);
 
 let stillAlive = true;
