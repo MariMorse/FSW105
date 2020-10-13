@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+
+    <h1>CRANE AIRLINES</h1>
+
+    <form name="form">
+        
+        First Name: <input type="text" id="firstN" name="firstName" /><br>
+        Last Name: <input type="text" id="lastN" name="lastName"  /><br>
+        Age: <input type="number" min="1" name="age" /><br>
+        
+        Gender:
+            Male: <input type="radio" name="gender" value="Male" />
+            Female: <input type="radio" name="gender" value="Female" /><br>
+
+        Where would you like to travel?
+        <select id="select" name="city">
+            <option value="Las Vegas">Las Vegas, NV</option>
+            <option value="Orlando">Orlando, FL</option>
+            <option value="Chicago">Chicago,IL</option>
+        </select><br>
+
+        Dietary Restrictions? Check all that apply:<br>
+            Vegan <input type="checkbox" name="restrictions" value="Vegan"/>
+            Kosher <input type="checkbox" name="restrictions" value="Kosher"/>
+            Vegetarian <input type="checkbox" name="restrictions" value="Vegetarian"/><br>
+
+        <button type="button" id="button" name="submit">Submit</button>
+
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
