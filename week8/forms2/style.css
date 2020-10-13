@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-size: larger;
+    background-image: url('https://compote.slate.com/images/222e0b84-f164-4fb1-90e7-d20bc27acd8c.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+form {
+   border: 5px solid black; 
+   margin-left: 20%;
+   margin-right: 20%;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   background-color: rgb(207, 230, 245);
+}
+
+input {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 3px;
+}
+
+#firstN {
+    width: 30%;
+}
+
+#lastN {
+    width: 30%;
+}
+
+#select {
+    margin-bottom: 10px;
+}
+
+#button {
+    margin-top: 10px;
+    font-size: large;
+}
