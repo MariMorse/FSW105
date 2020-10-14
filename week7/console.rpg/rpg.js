@@ -52,6 +52,11 @@ function playerWalks() {
     let randomAttack = Math.floor((Math.random() * 3) + 1) //33% chance player gets attacked
     if (randomAttack == 1) { playerAttacked() } //Condensed
     distanceToCastle--
+    let randomWalkingMessage = Math.floor((Math.random() * 3) + 1)
+    if (randomWalkingMessage == 1) { strMsg = "Walking...." }
+    if (randomWalkingMessage == 2) { strMsg = "Almost there..." }
+    if (randomWalkingMessage == 3) { strMsg = "One step closer..." }
+    console.log(strMsg)
 }
 
 function playerReachedCastle() {
