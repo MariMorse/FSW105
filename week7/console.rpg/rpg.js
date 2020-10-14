@@ -122,7 +122,9 @@ while (playing == true) {
     if (distanceToCastle == 0) { playerReachedCastle() };
 }
 
-/* Improvements for future
+
+/* BUG: Player can press enter without entering name and still continue, would like to make it a REQUIREMENT for the info. 
+ Improvements for future
 Incorporate health potions
 Enemy HP and damage stats; contained in array?
 Items provide some purpose: increased damage, health, luck
