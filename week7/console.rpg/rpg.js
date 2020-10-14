@@ -52,6 +52,7 @@ function playerWalks() {
     let randomAttack = Math.floor((Math.random() * 3) + 1) //33% chance player gets attacked
     if (randomAttack == 1) { playerAttacked() } //Condensed
     distanceToCastle--
+    //I added different messages for the user to see each time "w" is chosen, it would look better and better readability inside of an array. This is the quick solution I chose to go with. 
     let randomWalkingMessage = Math.floor((Math.random() * 3) + 1)
     if (randomWalkingMessage == 1) { strMsg = "Walking...." }
     if (randomWalkingMessage == 2) { strMsg = "Almost there..." }
@@ -127,8 +128,8 @@ while (playing == true) {
     if (distanceToCastle == 0) { playerReachedCastle() };
 }
 
-
-/* BUG: Player can press enter without entering name and still continue, would like to make it a REQUIREMENT for the info. 
+/* I will continue you working on this project to learn and update because I have enjoyed these RPG with node.js & readline-sync. I will be adding graphics and more as listed below as I go. 
+BUG: Player can press enter without entering name and still continue, would like to make it a REQUIREMENT for the info. 
  Improvements for future
 Incorporate health potions
 Enemy HP and damage stats; contained in array?
