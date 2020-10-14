@@ -55,7 +55,7 @@ function playerWalks() {
 }
 
 function playerReachedCastle() {
-    console.log(`You have reached the castle. The Mushroom King was not home so you and the princess just walk home.`)
+    console.log(`You have reached the castle. The Mushroom King was not home so you and the princess escaped thrugh the forest to safety!!`)
     return playing = false
 }
 
